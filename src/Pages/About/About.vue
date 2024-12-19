@@ -43,7 +43,7 @@
         >
           <div>
             <img
-              src="../../assets/Images/Digital_Transformation.svg"
+              src="../../assets/Images/Transformation.svg"
               alt="Digital Transformation"
               class="w-12 h-12"
             />
