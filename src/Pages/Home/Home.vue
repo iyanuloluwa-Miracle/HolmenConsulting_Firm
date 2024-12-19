@@ -26,7 +26,7 @@
         <!-- Image and Services Section -->
         <div
           class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-10">
-          <img src="../../assets/Images/consulting firm.svg" alt="Consulting Team"
+          <img src="../../assets/Images/consultingfirm.svg" alt="Consulting Team"
             class="rounded-lg shadow-lg w-full" />
         </div>
 
