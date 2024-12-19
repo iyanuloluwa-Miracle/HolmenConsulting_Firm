@@ -103,7 +103,7 @@
               <div
                 class="bg-cyan-50 p-8 rounded-lg text-center transition duration-300 ease-in-out transform hover:scale-105">
                 <div class="mb-4">
-                  <img src="../../assets/Images/Advisory_service.svg" alt="User Icon"
+                  <img src="../../assets/Images/service.svg" alt="User Icon"
                     className="w-10 h-10 mx-auto animate-bounce" />
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Advisory Services</h3>
