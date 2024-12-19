@@ -78,7 +78,7 @@
         >
           <div>
             <img
-              src="../../assets/Images/target_market.svg"
+              src="../../assets/Images/market.svg"
               alt="Target Market"
               class="w-12 h-12"
             />
@@ -110,7 +110,7 @@
         >
           <div>
             <img
-              src="../../assets/Images/improved Management Focus.svg"
+              src="../../assets/Images/Focus (2).svg"
               alt="Improved Management Focus"
               class="w-12 h-12"
             />
@@ -219,7 +219,7 @@
         >
           <div>
             <img
-              src="../../assets/Images/target_market.svg"
+              src="../../assets/Images/market.svg"
               alt="Target Market"
               class="w-12 h-12"
             />
