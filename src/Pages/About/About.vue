@@ -144,7 +144,7 @@
         >
           <div>
             <img
-              src="../../assets/Images/Operating_Model.svg"
+              src="../../assets/Images/operating-model.svg"
               alt="Operating Model"
               class="w-12 h-12"
             />
