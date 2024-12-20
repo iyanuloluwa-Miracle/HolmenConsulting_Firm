@@ -59,10 +59,10 @@
               
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-semibold text-gray-800 mb-4 text-center">
             Digital Transformation
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             We will define your digital IT architecture and design a
             transformation road-map to digitize your assets, align your people
             with your business goals, stimulate innovation, drive operational
@@ -77,14 +77,14 @@
           <div class="flex justify-center mb-6">
             <div class="relative">
 
-                <img src="../../assets/Images/CM.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/CM.svg" alt="Digital Transformation" width="250px"/>
               
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Cloud Migration
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             Business Process Re-Engineering (BPR) optimizes core processes by
             automating non-value-added tasks. Our team collaborates to analyze
             and redesign your workflows.
@@ -98,14 +98,14 @@
           <div class="flex justify-center mb-6">
             <div class="relative">
 
-                <img src="../../assets/Images/erp.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/erp.svg" alt="Digital Transformation" width="310px"/>
               
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             ERP & Core Systems
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             Simple and effective implementation of ERP solutions with acceptable
             levels of customization to meet your needs. Understanding your
             requirements is critical.
@@ -123,10 +123,10 @@
               
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Business Process Re-engineering
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             Our team helps analyze and redesign your workflows, automating
             processes where possible to enhance efficiency and reduce costs
             while maintaining quality.
@@ -140,14 +140,14 @@
           <div class="flex justify-center mb-6">
            <div class="relative">
 
-                <img src="../../assets/Images/it-infrastructure.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/it-infrastructure.svg" alt="Digital Transformation" width="280px"/>
               
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Data Analytics
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             Transform your raw data into actionable insights with our advanced
             analytics solutions. We help you make data-driven decisions to drive
             business growth.
@@ -167,10 +167,10 @@
             </div>
             </div>
           </div>
-          <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
+          <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Cybersecurity Solutions
           </h2>
-          <p class="text-gray-600 text-center text-sm">
+          <p class="text-gray-600 text-center text-xl">
             Protect your digital assets with our comprehensive security
             solutions. We provide threat detection, prevention, and response
             services to keep your data safe.
