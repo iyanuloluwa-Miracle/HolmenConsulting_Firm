@@ -53,7 +53,7 @@
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
           <div class="flex justify-center mb-6">
-            <div class="relative">
+            <div class="relative ">
 
                 <img src="../../assets/Images/dt.svg" alt="Digital Transformation"/>
               
@@ -96,28 +96,10 @@
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
           <div class="flex justify-center mb-6">
-            <div class="w-40 h-40 relative">
-              <svg
-                class="w-full h-full text-blue-500"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  x="2"
-                  y="2"
-                  width="20"
-                  height="20"
-                  rx="2"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-                <path
-                  d="M8 8h8M8 12h8M8 16h8"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
+            <div class="relative">
+
+                <img src="../../assets/Images/erp.svg" alt="Digital Transformation"/>
+              
             </div>
           </div>
           <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
@@ -135,26 +117,10 @@
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
           <div class="flex justify-center mb-6">
-            <div class="w-40 h-40 relative">
-              <svg
-                class="w-full h-full text-blue-500"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="6"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-                <path
-                  d="M12 2v4m0 12v4M2 12h4m12 0h4"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
+            <div class="relative">
+
+                <img src="../../assets/Images/bussiness.svg" alt="Digital Transformation"/>
+              
             </div>
           </div>
           <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
@@ -172,19 +138,10 @@
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
           <div class="flex justify-center mb-6">
-            <div class="w-40 h-40 relative">
-              <svg
-                class="w-full h-full text-blue-500"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4 14h4v7H4v-7zM10 9h4v12h-4V9zM16 3h4v18h-4V3z"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
+           <div class="relative">
+
+                <img src="../../assets/Images/it-infrastructure.svg" alt="Digital Transformation"/>
+              
             </div>
           </div>
           <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
@@ -203,23 +160,11 @@
         >
           <div class="flex justify-center mb-6">
             <div class="w-40 h-40 relative">
-              <svg
-                class="w-full h-full text-blue-500"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 2L3 7v5c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5z"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-                <path
-                  d="M12 9v6m0 2v.01"
-                  stroke="currentColor"
-                  stroke-width="2"
-                />
-              </svg>
+             <div class="relative">
+
+                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation"/>
+              
+            </div>
             </div>
           </div>
           <h2 class="text-xl font-semibold text-gray-800 mb-4 text-center">
