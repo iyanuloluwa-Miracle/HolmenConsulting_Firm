@@ -53,7 +53,7 @@
               />
             </div>
             <div class="p-6">
-              <p class="text-gray-700 text-sm md:text-base leading-relaxed">
+              <p class="text-gray-700 text-sm md:text-base leading-relaxed font-semibold">
                 {{ project.description }}
               </p>
             </div>
@@ -93,22 +93,22 @@ export default {
         {
           image: laptop,
           description:
-            "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
+            "Assisted a major Insurance conglomerate in migrating on premise core servers with different databases to Azure Cloud Services. This has led to significant reduction in running cost of IT infrastructure and improve operations efficiency.",
         },
         {
           image: cloud_migration,
           description:
-            "Assisted a major Insurance conglomerate in migrating on premise core servers with different databases to Azure Cloud Services. This has led to significant reduction in running cost of IT infrastructure and improve operations efficiency.",
+            "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
         },
          {
           image: internet_security,
           description:
-            "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
+            "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
          {
           image: software_image,
           description:
-            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
+            "Implemented encryption software to safeguard both data in motion and at rest through out the bank's network and databases."
         },
       ],
     };
