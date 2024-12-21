@@ -31,10 +31,10 @@
       </div>
     </div>
 
-    <div class="min-h-screen bg-purple-50 p-4 md:p-8">
+    <div class="min-h-screen bg-[#FDEEFF] p-4 md:p-8">
       <!-- Main Container -->
       <div class="max-w-7xl mx-auto">
-        <h1 class="text-3xl md:text-4xl font-bold text-purple-900 text-center mb-12">
+        <h1 class="text-3xl md:text-4xl font-bold text-[#4B3F3E] text-center mb-12">
           Highlights of Recent Projects
         </h1>
 
@@ -90,6 +90,16 @@ export default {
             "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
         {
+          image: "https://via.placeholder.com/800x400",
+          description:
+            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
+        },
+         {
+          image: "https://via.placeholder.com/800x400",
+          description:
+            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
+        },
+         {
           image: "https://via.placeholder.com/800x400",
           description:
             "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
