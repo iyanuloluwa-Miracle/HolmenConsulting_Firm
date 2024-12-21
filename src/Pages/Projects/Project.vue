@@ -24,7 +24,7 @@
 
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
         <img
-          src="../../assets/Images/recent-project.svg"
+          src="./../assets/Images/recent-project.svg"
           alt="A diverse team of professionals working together at computers"
           class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
         />
@@ -66,6 +66,7 @@
 
 <script>
 import Navbar from "../../components/Navbar/Navbar.vue";
+import graphs from "../../assets/card-images/graphs.svg";
 
 export default {
   components: {
@@ -75,32 +76,32 @@ export default {
     return {
       projects: [
         {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
-            "Assisted a major insurance conglomerate in migrating on-premise core servers with different databases to Azure Cloud Services. This has led to significant reduction in running cost of IT infrastructure and improve operations efficiency.",
+            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
         },
         {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
-            "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
+            "Collaborated with four banks in migrating, integrating & outsourcing on premise security systems monitoring to MSSP Cybersoc. The end results are that our clients were able to get round the clock alert & monitoring, save significantly on system upgrades, minimize resource allocation and receive better security expertise.",
         },
         {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
             "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
         {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
-            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
+            "Assisted a major Insurance conglomerate in migrating on premise core servers with different databases to Azure Cloud Services. This has led to significant reduction in running cost of IT infrastructure and improve operations efficiency.",
         },
          {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
-            "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
+            "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
         },
          {
-          image: "https://via.placeholder.com/800x400",
+          image: graphs,
           description:
             "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
         },
