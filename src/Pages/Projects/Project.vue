@@ -69,6 +69,9 @@ import Navbar from "../../components/Navbar/Navbar.vue";
 import graphs from "../../assets/card-images/graphs.svg";
 import collage from "../../assets/card-images/collage.svg";
 import laptop from "../../assets/card-images/scrolling-laptop.svg";
+import cloud_migration from "../../assets/card-images/social-clouds.svg";
+import internet_security from "../../assets/card-images/internet-secuirty-badge.svg";
+import software_image from "../../assets/card-images/3d-cryptocurrency-rendering-design.svg";
 
 export default {
   components: {
@@ -93,17 +96,17 @@ export default {
             "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
         {
-          image: graphs,
+          image: cloud_migration,
           description:
             "Assisted a major Insurance conglomerate in migrating on premise core servers with different databases to Azure Cloud Services. This has led to significant reduction in running cost of IT infrastructure and improve operations efficiency.",
         },
          {
-          image: graphs,
+          image: internet_security,
           description:
             "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
         },
          {
-          image: graphs,
+          image: software_image,
           description:
             "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
         },
