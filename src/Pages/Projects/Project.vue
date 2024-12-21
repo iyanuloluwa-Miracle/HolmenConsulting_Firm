@@ -24,7 +24,7 @@
 
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
         <img
-          src="./../assets/Images/recent-project.svg"
+          src="../../assets/Images/recent-project.svg"
           alt="A diverse team of professionals working together at computers"
           class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
         />
@@ -67,6 +67,8 @@
 <script>
 import Navbar from "../../components/Navbar/Navbar.vue";
 import graphs from "../../assets/card-images/graphs.svg";
+import collage from "../../assets/card-images/collage.svg";
+import laptop from "../../assets/card-images/scrolling-laptop.svg";
 
 export default {
   components: {
@@ -81,12 +83,12 @@ export default {
             "Roll-out of various multi-layered security infrastructure for a Development bank (FDI) consisting of Web Application Firewall, Database Activity Monitoring, Encryption of Database and File & Network Access Control. These four initiatives has totally strengthened the protection of their database & Infrastructure.",
         },
         {
-          image: graphs,
+          image: collage,
           description:
             "Collaborated with four banks in migrating, integrating & outsourcing on premise security systems monitoring to MSSP Cybersoc. The end results are that our clients were able to get round the clock alert & monitoring, save significantly on system upgrades, minimize resource allocation and receive better security expertise.",
         },
         {
-          image: graphs,
+          image: laptop,
           description:
             "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
