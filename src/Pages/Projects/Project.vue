@@ -2,7 +2,9 @@
   <div>
     <Navbar />
 
-    <div class="flex flex-col md:flex-row justify-between items-center py-12 px-6">
+    <div
+      class="flex flex-col md:flex-row justify-between items-center py-12 px-6"
+    >
       <div class="md:w-1/2 md:mr-12 ml-11">
         <h2 class="text-4xl font-bold mt-16 mb-6">
           Recents <span class="text-purple-500">Projects</span>
@@ -34,7 +36,9 @@
     <div class="min-h-screen bg-[#FDEEFF] p-4 md:p-8">
       <!-- Main Container -->
       <div class="max-w-7xl mx-auto">
-        <h1 class="text-3xl md:text-4xl font-bold text-[#4B3F3E] text-center mb-12">
+        <h1
+          class="text-3xl md:text-4xl font-bold text-[#4B3F3E] text-center mb-12"
+        >
           Highlights of Recent Projects
         </h1>
 
@@ -53,9 +57,38 @@
               />
             </div>
             <div class="p-6">
-              <p class="text-gray-700 text-sm md:text-base leading-relaxed font-semibold">
+              <p
+                class="text-gray-700 text-sm md:text-base leading-relaxed font-semibold"
+              >
                 {{ project.description }}
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+          Some of Our Valued <span class="text-purple-600">Clients</span>
+        </h2>
+
+        <!-- Grid for client logos -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+          <div
+            v-for="(client, index) in clients"
+            :key="index"
+            class="flex items-center justify-center p-4 transition-all duration-300 hover:scale-105"
+          >
+            <div
+              class="w-full aspect-[3/2] relative flex items-center justify-center"
+            >
+              <img
+                :src="client.logo"
+                :alt="client.name"
+                class="max-w-full max-h-full object-contain"
+              />
             </div>
           </div>
         </div>
@@ -72,6 +105,16 @@ import laptop from "../../assets/card-images/scrolling-laptop.svg";
 import cloud_migration from "../../assets/card-images/social-clouds.svg";
 import internet_security from "../../assets/card-images/internet-secuirty-badge.svg";
 import software_image from "../../assets/card-images/3d-cryptocurrency-rendering-design.svg";
+
+import Coronation_Merchant_Bank from '../../assets/card-images/CoronationBank.svg';
+import Custodian from '../../assets/card-images/Custodian.svg'
+import SterlingBank from '../../assets/card-images/Sterlingbank.svg'
+import NIGERIAN_PORT_AUTHORITY from '../../assets/card-images/NIGERIANPORTAUTHORITY.svg'
+import BOI from '../../assets/card-images/BOI.svg'
+import Unity_Bank from '../../assets/card-images/UnionBank.svg'
+import Bedc from '../../assets/card-images/BEDC.svg'
+import  FSDH from '../../assets/card-images/Merchant.svg'
+
 
 export default {
   components: {
@@ -100,17 +143,52 @@ export default {
           description:
             "Currently working with a bank to integrate all 3rd party applications (using Oracle ESB) to Core Banking & develop a robust Business Intelligence tool that provides smart analytics (using single source of truth) into their customer's activities.",
         },
-         {
+        {
           image: internet_security,
           description:
             "Collaborating with a major Utility company in integrating all their disparate 3rd party applications using middleware (ESB) to their new ERP to create a single source of truth and achieve greater efficiency in operations.",
         },
-         {
+        {
           image: software_image,
           description:
-            "Implemented encryption software to safeguard both data in motion and at rest through out the bank's network and databases."
+            "Implemented encryption software to safeguard both data in motion and at rest through out the bank's network and databases.",
         },
       ],
+
+      clients: [
+        {
+          name: 'Coronation Merchant Bank',
+          logo: Coronation_Merchant_Bank
+        },
+        {
+          name: 'Custodian',
+          logo: Custodian
+        },
+        {
+          name: 'Sterling Bank',
+          logo: SterlingBank
+        },
+        {
+          name: 'Nigerian Ports Authority',
+          logo: NIGERIAN_PORT_AUTHORITY
+        },
+        {
+          name: 'Bank of Industry',
+          logo: BOI
+        },
+        {
+          name: 'Union Bank',
+          logo: Unity_Bank
+        },
+        {
+          name: 'BEDC',
+          logo: Bedc
+        },
+        {
+          name: 'FSDH',
+          logo: FSDH
+        }
+      ]
     };
   },
 };
