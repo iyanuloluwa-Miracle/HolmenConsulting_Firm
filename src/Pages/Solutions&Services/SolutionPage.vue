@@ -62,7 +62,7 @@
           <h2 class="text-[33px] font-semibold text-gray-800 mb-4 text-center">
             Digital Transformation
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             We will define your digital IT architecture and design a
             transformation road-map to digitize your assets, align your people
             with your business goals, stimulate innovation, drive operational
@@ -84,7 +84,7 @@
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Cloud Migration
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             Business Process Re-Engineering (BPR) optimizes core processes by
             automating non-value-added tasks. Our team collaborates to analyze
             and redesign your workflows.
@@ -105,7 +105,7 @@
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             ERP & Core Systems
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             Simple and effective implementation of ERP solutions with acceptable
             levels of customization to meet your needs. Understanding your
             requirements is critical.
@@ -126,7 +126,7 @@
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Business Process Re-engineering
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             Our team helps analyze and redesign your workflows, automating
             processes where possible to enhance efficiency and reduce costs
             while maintaining quality.
@@ -147,7 +147,7 @@
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Data Analytics
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             Transform your raw data into actionable insights with our advanced
             analytics solutions. We help you make data-driven decisions to drive
             business growth.
@@ -162,7 +162,7 @@
             <div class="w-40 h-40 relative">
              <div class="relative">
 
-                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation" width="500px">
               
             </div>
             </div>
@@ -170,7 +170,7 @@
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
             Cybersecurity Solutions
           </h2>
-          <p class="text-gray-600 text-center text-xl">
+          <p class="text-gray-600 text-center text-xl font-semibold">
             Protect your digital assets with our comprehensive security
             solutions. We provide threat detection, prevention, and response
             services to keep your data safe.
