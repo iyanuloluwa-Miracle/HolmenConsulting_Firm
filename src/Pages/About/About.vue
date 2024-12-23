@@ -330,26 +330,109 @@
       </div>
     </div>
 
+    <div class="bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+          Our <span class="text-purple-600">Team</span>
+        </h2>
 
-    
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            v-for="member in teamMembers"
+            :key="member.id"
+            class="flex flex-col items-center group"
+          >
+            <!-- Image Container -->
+            <div
+              class="relative w-full aspect-square mb-4 overflow-hidden rounded-lg"
+            >
+              <img
+                :src="member.image"
+                :alt="member.name"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
 
+            <!-- Text Content -->
+            <div class="text-center">
+              <h3 class="text-xl font-semibold text-gray-900">
+                {{ member.name }}
+              </h3>
+              <p class="text-gray-600 mt-1">{{ member.position }}</p>
 
-
-    
-
-
-
-
-
+              <!-- Social Links -->
+              <div class="flex justify-center gap-4 mt-3">
+                <a
+                  v-for="social in member.socials"
+                  :key="social.type"
+                  :href="social.link"
+                  class="text-gray-400 hover:text-purple-600 transition-colors duration-300"
+                  :aria-label="`${member.name}'s ${social.type}`"
+                >
+                  <component :is="social.icon" class="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Navbar from "../../components/Navbar/Navbar.vue";
+import { MailIcon, LinkedinIcon, GithubIcon } from 'lucide-vue-next'
+import Yomi_Akinade from '../../assets/Images/YAA.svg'
+import Niyi from '../../assets/Images/Niyi.svg'
+import Yemi from '../../assets/Images/Yemi.svg'
+
 
 export default {
   components: {
     Navbar,
+    MailIcon,
+    LinkedinIcon,
+    GithubIcon
   },
-};
+  data() {
+    return {
+      teamMembers: [
+        {
+          id: 1,
+          name: 'Yomi Akinade',
+          position: 'Managing Partner',
+          image: Yomi_Akinade,
+          socials: [
+            { type: 'email', icon: 'MailIcon', link: '#' },
+            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
+            { type: 'github', icon: 'GithubIcon', link: '#' }
+          ]
+        },
+        {
+          id: 2,
+          name: 'Niyi Odunlami',
+          position: 'Partner',
+          image: Niyi,
+          socials: [
+            { type: 'email', icon: 'MailIcon', link: '#' },
+            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
+            { type: 'github', icon: 'GithubIcon', link: '#' }
+          ]
+        },
+        {
+          id: 3,
+          name: 'Yemi Kuti',
+          position: 'Partner - Business Transformation',
+          image: Yemi,
+          socials: [
+            { type: 'email', icon: 'MailIcon', link: '#' },
+            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
+            { type: 'github', icon: 'GithubIcon', link: '#' }
+          ]
+        }
+      ]
+    }
+  }
+}
 </script>
