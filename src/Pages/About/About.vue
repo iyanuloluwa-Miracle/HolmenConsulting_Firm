@@ -332,7 +332,7 @@
 
     <div class="bg-white py-12 px-4 sm:px-6 lg:px-8">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 class="text-[48px] md:text-[48px] font-bold text-center mb-12">
           Our <span class="text-purple-600">Team</span>
         </h2>
 
