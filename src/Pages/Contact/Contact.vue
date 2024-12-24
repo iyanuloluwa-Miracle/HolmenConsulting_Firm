@@ -3,10 +3,10 @@
     <Navbar />
     <div class="max-w-6xl mx-auto p-4 md:p-8">
       <div class="p-6 md:p-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">
+        <h2 class="text-[48px] md:text-4xl font-bold text-center mb-2">
           Contact <span class="text-purple-600">Us</span>
         </h2>
-        <p class="text-center text-gray-600 mb-8">We will be happy to help you out!</p>
+        <p class="text-center text-gray-600 mb-8 font-semibold">We will be happy to help you out!</p>
 
         <div class="flex flex-col md:flex-row items-center gap-8">
           <!-- Illustration Section -->
@@ -18,12 +18,10 @@
             />
           </div>
 
-          <!-- Form Section -->
           <div class="w-full md:w-1/2">
             <form @submit.prevent="handleSubmit" class="space-y-6">
-              <!-- Name Input -->
               <div>
-                <label for="name" class="block text-gray-700 font-medium mb-2">What is your name?</label>
+                <label for="name" class="block text-gray-700 font-bold mb-2">What is your name?</label>
                 <input
                   id="name"
                   v-model="formData.name"
@@ -35,7 +33,7 @@
 
               <!-- Email Input -->
               <div>
-                <label for="email" class="block text-gray-700 font-medium mb-2">Your email address</label>
+                <label for="email" class="block text-gray-700  font-bold mb-2">Your email address</label>
                 <input
                   id="email"
                   v-model="formData.email"
@@ -47,7 +45,7 @@
 
               <!-- Message Input -->
               <div>
-                <label for="message" class="block text-gray-700 font-medium mb-2">Your message</label>
+                <label for="message" class="block text-gray-700  font-bold mb-2">Your message</label>
                 <textarea
                   id="message"
                   v-model="formData.message"
@@ -60,7 +58,7 @@
               <!-- Submit Button -->
               <button
                 type="submit"
-                class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out"
+                class="w-full bg-purple-600 hover:bg-purple-700 text-white  font-bold py-3 px-6 rounded-md transition duration-300 ease-in-out"
                 :disabled="isSubmitting"
               >
                 {{ isSubmitting ? 'Sending...' : 'Send message' }}
@@ -94,9 +92,7 @@ export default {
     async handleSubmit() {
       this.isSubmitting = true;
       try {
-        // Add your form submission logic here
         console.log("Form submitted:", this.formData);
-        // Reset form after successful submission
         this.formData = {
           name: "",
           email: "",
