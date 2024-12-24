@@ -360,8 +360,11 @@
               </h3>
               <p class="text-gray-600 mt-1">{{ member.position }}</p>
 
+              
+
               <!-- Social Links -->
               <div class="flex justify-center gap-4 mt-3">
+
                 <a
                   v-for="social in member.socials"
                   :key="social.type"
