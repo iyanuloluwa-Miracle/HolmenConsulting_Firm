@@ -6,7 +6,9 @@
         <h2 class="text-[48px] md:text-4xl font-bold text-center mb-2">
           Contact <span class="text-purple-600">Us</span>
         </h2>
-        <p class="text-center text-gray-600 mb-8 font-semibold">We will be happy to help you out!</p>
+        <p class="text-center text-gray-600 mb-8 font-semibold">
+          We will be happy to help you out!
+        </p>
 
         <div class="flex flex-col md:flex-row items-center gap-8">
           <!-- Illustration Section -->
@@ -21,7 +23,9 @@
           <div class="w-full md:w-1/2">
             <form @submit.prevent="handleSubmit" class="space-y-6">
               <div>
-                <label for="name" class="block text-gray-700 font-bold mb-2">What is your name?</label>
+                <label for="name" class="block text-gray-700 font-bold mb-2"
+                  >What is your name?</label
+                >
                 <input
                   id="name"
                   v-model="formData.name"
@@ -33,7 +37,9 @@
 
               <!-- Email Input -->
               <div>
-                <label for="email" class="block text-gray-700  font-bold mb-2">Your email address</label>
+                <label for="email" class="block text-gray-700 font-bold mb-2"
+                  >Your email address</label
+                >
                 <input
                   id="email"
                   v-model="formData.email"
@@ -45,7 +51,9 @@
 
               <!-- Message Input -->
               <div>
-                <label for="message" class="block text-gray-700  font-bold mb-2">Your message</label>
+                <label for="message" class="block text-gray-700 font-bold mb-2"
+                  >Your message</label
+                >
                 <textarea
                   id="message"
                   v-model="formData.message"
@@ -58,14 +66,28 @@
               <!-- Submit Button -->
               <button
                 type="submit"
-                class="w-full bg-purple-600 hover:bg-purple-700 text-white  font-bold py-3 px-6 rounded-md transition duration-300 ease-in-out"
+                class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-md transition duration-300 ease-in-out"
                 :disabled="isSubmitting"
               >
-                {{ isSubmitting ? 'Sending...' : 'Send message' }}
+                {{ isSubmitting ? "Sending..." : "Send message" }}
               </button>
             </form>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="max-w-full p-4">
+      <div
+        class="relative w-full h-64 md:h-96 overflow-hidden rounded-md shadow-lg"
+      >
+        <!-- Replace the iframe below with your desired map embed or API -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31513.964726763!2d3.3784843856695516!3d6.4475695999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2553b4dc5d%3A0x0!2sLagos!5e0!3m2!1sen!2sng!4v1698169437311!5m2!1sen!2sng"
+          class="absolute top-0 left-0 w-full h-full border-0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
   </div>
