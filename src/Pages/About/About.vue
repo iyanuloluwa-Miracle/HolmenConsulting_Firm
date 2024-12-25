@@ -398,7 +398,7 @@ import Footer from "../../components/Footer/Footer.vue";
 export default {
   components: {
     Navbar,
-     Footer
+     Footer,
     MailIcon,
     LinkedinIcon,
     GithubIcon
