@@ -360,7 +360,7 @@
               </h3>
               <p class="text-gray-600 mt-1">{{ member.position }}</p>
 
-              
+
 
               <!-- Social Links -->
               <div class="flex justify-center gap-4 mt-3">
@@ -381,6 +381,9 @@
       </div>
     </div>
   </div>
+  <Footer/>
+
+
 </template>
 
 <script>
@@ -389,11 +392,13 @@ import { MailIcon, LinkedinIcon, GithubIcon } from 'lucide-vue-next'
 import Yomi_Akinade from '../../assets/Images/YAA.svg'
 import Niyi from '../../assets/Images/Niyi.svg'
 import Yemi from '../../assets/Images/Yemi.svg'
+import Footer from "../../components/Footer/Footer.vue";
 
 
 export default {
   components: {
     Navbar,
+     Footer
     MailIcon,
     LinkedinIcon,
     GithubIcon
