@@ -155,16 +155,12 @@
         </div>
 
         <!-- Cybersecurity Solutions Card -->
-        <div
+         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
           <div class="flex justify-center mb-6">
-            <div class="w-40 h-40 relative">
-             <div class="relative">
-
-                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation" width="500px">
-              
-            </div>
+            <div class="relative">
+                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation" width="360px"/>
             </div>
           </div>
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
