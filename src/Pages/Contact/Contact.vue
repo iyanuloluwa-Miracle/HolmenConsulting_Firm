@@ -17,6 +17,7 @@
               src="../../assets/Images/contact-us.svg"
               alt="Contact illustration"
               class="w-full max-w-sm"
+              loading="lazy"
             />
           </div>
 

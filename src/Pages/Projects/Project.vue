@@ -26,7 +26,7 @@
 
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
         <img
-          src="../../assets/Images/recent-project.svg"
+          src="../../assets/Images/recent-project.svg" loading="lazy"
           alt="A diverse team of professionals working together at computers"
           class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
         />
@@ -199,7 +199,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Add any scoped styles if necessary */
-</style>

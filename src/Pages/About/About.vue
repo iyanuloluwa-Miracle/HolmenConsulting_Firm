@@ -25,7 +25,7 @@
 
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
         <img
-          src="../../assets/Images/aboutUs.svg"
+          src="../../assets/Images/aboutUs.svg" loading="lazy"
           alt="A diverse team of professionals working together at computers"
           class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
         />
@@ -347,7 +347,7 @@
               class="relative w-full aspect-square mb-4 overflow-hidden rounded-lg"
             >
               <img
-                :src="member.image"
+                :src="member.image" loading="lazy"
                 :alt="member.name"
                 class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />

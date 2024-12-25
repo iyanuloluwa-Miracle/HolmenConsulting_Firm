@@ -27,7 +27,7 @@
         <div
           class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-10">
           <img src="../../assets/Images/consultingfirm.svg" alt="Consulting Team"
-            class="rounded-lg shadow-lg w-full" />
+            class="rounded-lg shadow-lg w-full" loading="lazy" />
         </div>
 
         <div class="py-10">
@@ -61,7 +61,7 @@
                 <div class="mb-4">
 
                   <img src="../../assets/Images/consulting.svg" alt="User Icon"
-                    className="w-10 h-10 mx-auto animate-bounce" />
+                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy" />
 
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Consulting</h3>
@@ -76,7 +76,7 @@
                 class="bg-pink-50 p-8 rounded-lg text-center transition duration-300 ease-in-out transform hover:scale-105">
                 <div class="mb-4">
                   <img src="../../assets/Images/management.svg" alt="User Icon"
-                    className="w-10 h-10 mx-auto animate-bounce" />
+                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy"/>
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Management</h3>
                 <p class="text-gray-600 animate-fadeIn animate-delay-200 font-bold">We assist you in defining and
@@ -90,7 +90,7 @@
                 class="bg-gray-50 p-8 rounded-lg text-center transition duration-300 ease-in-out transform hover:scale-105">
                 <div class="mb-4">
                   <img src="../../assets/Images/implementation.svg" alt="User Icon"
-                    className="w-10 h-10 mx-auto animate-bounce" />
+                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy" />
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Implementation</h3>
                 <p class="text-gray-600 animate-fadeIn animate-delay-200 font-bold">We provide both functional and
@@ -104,7 +104,7 @@
                 class="bg-cyan-50 p-8 rounded-lg text-center transition duration-300 ease-in-out transform hover:scale-105">
                 <div class="mb-4">
                   <img src="../../assets/Images/service.svg" alt="User Icon"
-                    className="w-10 h-10 mx-auto animate-bounce" />
+                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy" />
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Advisory Services</h3>
                 <p class="text-gray-600 animate-fadeIn animate-delay-200 font-bold">We also provide alternate financial

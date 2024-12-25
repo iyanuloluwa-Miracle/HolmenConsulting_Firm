@@ -34,6 +34,7 @@
               src="../../assets/Images/Solutionimage.svg"
               alt="Digital Solutions"
               class="rounded-lg shadow-lg w-full h-auto object-cover"
+              loading="lazy"
             />
           </div>
         </div>
@@ -55,7 +56,7 @@
           <div class="flex justify-center mb-6">
             <div class="relative ">
 
-                <img src="../../assets/Images/dt.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/dt.svg" alt="Digital Transformation" loading="lazy"/>
               
             </div>
           </div>
@@ -77,7 +78,7 @@
           <div class="flex justify-center mb-6">
             <div class="relative">
 
-                <img src="../../assets/Images/CM.svg" alt="Digital Transformation" width="250px"/>
+                <img src="../../assets/Images/CM.svg" loading="lazy" alt="Digital Transformation" width="250px" />
               
             </div>
           </div>
@@ -98,7 +99,7 @@
           <div class="flex justify-center mb-6">
             <div class="relative">
 
-                <img src="../../assets/Images/erp.svg" alt="Digital Transformation" width="310px"/>
+                <img src="../../assets/Images/erp.svg" loading="lazy" alt="Digital Transformation" width="310px"/>
               
             </div>
           </div>
@@ -119,7 +120,7 @@
           <div class="flex justify-center mb-6">
             <div class="relative">
 
-                <img src="../../assets/Images/bussiness.svg" alt="Digital Transformation"/>
+                <img src="../../assets/Images/bussiness.svg"  alt="Digital Transformation" loading="lazy"/>
               
             </div>
           </div>
@@ -140,7 +141,7 @@
           <div class="flex justify-center mb-6">
            <div class="relative">
 
-                <img src="../../assets/Images/it-infrastructure.svg" alt="Digital Transformation" width="280px"/>
+                <img src="../../assets/Images/it-infrastructure.svg" alt="Digital Transformation" width="280px" loading="lazy"/>
               
             </div>
           </div>
@@ -160,7 +161,7 @@
         >
           <div class="flex justify-center mb-6">
             <div class="relative">
-                <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation" width="360px"/>
+              <img src="../../assets/Images/Data-security.svg" alt="Digital Transformation" width="360px" loading="lazy"/>
             </div>
           </div>
           <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
