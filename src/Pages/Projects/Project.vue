@@ -94,10 +94,15 @@
         </div>
       </div>
     </div>
+
+    <Footer />
+
+
   </div>
 </template>
 
 <script>
+import Footer from "../../components/Footer/Footer.vue";
 import Navbar from "../../components/Navbar/Navbar.vue";
 import graphs from "../../assets/card-images/graphs.svg";
 import collage from "../../assets/card-images/collage.svg";
@@ -119,6 +124,7 @@ import  FSDH from '../../assets/card-images/Merchant.svg'
 export default {
   components: {
     Navbar,
+    Footer
   },
   data() {
     return {
