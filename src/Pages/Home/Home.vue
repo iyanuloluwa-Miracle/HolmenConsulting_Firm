@@ -26,8 +26,8 @@
         <!-- Image and Services Section -->
         <div
           class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-10">
-          <img src="../../assets/Images/consultingfirm.svg" alt="Consulting Team"
-            class="rounded-lg shadow-lg w-full" loading="lazy" />
+          <img src="../../assets/Images/consultingfirm.svg" alt="Consulting Team" class="rounded-lg shadow-lg w-full"
+            loading="lazy" />
         </div>
 
         <div class="py-10">
@@ -76,7 +76,7 @@
                 class="bg-pink-50 p-8 rounded-lg text-center transition duration-300 ease-in-out transform hover:scale-105">
                 <div class="mb-4">
                   <img src="../../assets/Images/management.svg" alt="User Icon"
-                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy"/>
+                    className="w-10 h-10 mx-auto animate-bounce" loading="lazy" />
                 </div>
                 <h3 class="text-lg font-bold mb-2 animate-fadeIn">Management</h3>
                 <p class="text-gray-600 animate-fadeIn animate-delay-200 font-bold">We assist you in defining and
@@ -139,7 +139,71 @@
 
       </div>
     </div>
-    <Footer/>
+
+
+
+    <section class="bg-[#FDEEFF] py-12">
+      <div class="container mx-auto px-4">
+        <!-- Section Title -->
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 sm:text-3xl">
+          What our client says about us.
+        </h2>
+
+        <!-- Testimonial Content -->
+        <div class="flex flex-col space-y-6">
+          <!-- Testimonial Text -->
+          <p class="text-gray-700 font-semibold text-lg sm:text-xl leading-relaxed">
+            "I worked with consultants @ Holmen Consulting for several years in ERP implementation consulting. They have
+            significant expertise in ERP software packages, and a high level of motivation and self-initiatives. I would
+            not hesitate to hire Holmen Consultants again at any time, should a future opportunity arise."
+          </p>
+
+          <!-- Client Info and Pagination -->
+          <div class="flex items-center justify-between mt-6">
+            <!-- Client Info -->
+            <div class="flex items-center space-x-4">
+              <img src="../../assets/Images/Kathy-wulfken.svg" alt="Kathy Wulfken"
+                class="w-16 h-16 rounded-full object-cover" />
+              <div>
+                <p class="font-bold text-gray-800 text-base">
+                  Kathy Wulfken, Practice Leader
+                </p>
+                <p class="text-gray-500 text-sm">
+                  Latis Technologies Inc
+                </p>
+              </div>
+            </div>
+
+            <!-- Pagination Controls -->
+            <div class="flex items-center space-x-4">
+              <!-- Previous Button -->
+              <button
+                class="flex items-center justify-center w-12 h-12 border border-purple-500 text-purple-500 rounded-lg hover:bg-purple-500 hover:text-white transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+              </button>
+
+              <!-- Page Number -->
+              <span class="text-gray-600 text-sm sm:text-base">
+                01/05
+              </span>
+
+              <!-- Next Button -->
+              <button
+                class="flex items-center justify-center w-12 h-12 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <Footer />
   </section>
 </template>
 
