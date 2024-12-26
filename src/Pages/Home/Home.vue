@@ -17,10 +17,10 @@
         </p>
 
         <div class="mt-6">
-          <button
-            class="px-6 py-3 bg-purple-500 text-white font-medium text-sm rounded-lg shadow-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300">
-            Book a Free Consulting Call
-          </button>
+        <a href="https://wa.me/+2349016470826" 
+   class="inline-block px-6 py-3 bg-purple-500 text-white font-bold text-sm rounded-lg shadow-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300">
+  Book a Free Consulting Call
+</a>
         </div>
 
         <!-- Image and Services Section -->
