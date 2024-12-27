@@ -355,10 +355,10 @@
 
             <!-- Text Content -->
             <div class="text-center">
-              <h3 class="text-xl font-semibold text-gray-900">
+              <h3 class="text-xl font-bold text-gray-900">
                 {{ member.name }}
               </h3>
-              <p class="text-gray-600 mt-1">{{ member.position }}</p>
+              <p class="text-gray-600 mt-1 font-semibold">{{ member.position }}</p>
 
 
 
