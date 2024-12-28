@@ -269,6 +269,8 @@
 <script>
 import Navbar from "../../components/Navbar/Navbar.vue";
 import Footer from "../../components/Footer/Footer.vue";
+import testimonial_image from '../../assets/Images/Kathy-wulfken.svg'
+
 
 export default {
   components: {
@@ -283,34 +285,34 @@ export default {
           text: "I worked with consultants @ Holmen Consulting for several years in ERP implementation consulting. They have significant expertise in ERP software packages, and a high level of motivation and self-initiatives. I would not hesitate to hire Holmen Consultants again at any time, should a future opportunity arise.",
           author: "Kathy Wulfken, Practice Leader",
           company: "Latis Technologies Inc",
-          image: "../../assets/Images/Kathy-wulfken.svg",
+          image: testimonial_image,
         },
         {
           text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
-          image: "../../assets/Images/John-Doe.svg",
-        },
-
-        {
-          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
-          author: "John Doe, Project Manager",
-          company: "Tech Solutions Ltd",
-          image: "../../assets/Images/John-Doe.svg",
+          image: testimonial_image,
         },
 
         {
           text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
-          image: "../../assets/Images/John-Doe.svg",
+          image: testimonial_image,
         },
 
         {
           text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
-          image: "../../assets/Images/John-Doe.svg",
+          image: testimonial_image,
+        },
+
+        {
+          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
+          author: "John Doe, Project Manager",
+          company: "Tech Solutions Ltd",
+          image: testimonial_image,
         },
       ],
     };
