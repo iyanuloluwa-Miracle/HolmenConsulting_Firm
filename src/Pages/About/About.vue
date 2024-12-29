@@ -346,19 +346,23 @@
             <div
               class="relative w-full aspect-square mb-4 overflow-hidden rounded-lg"
             >
+            <a>
               <img
                 :src="member.image" loading="lazy"
                 :alt="member.name"
                 class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
+
+            </a>
+              
             </div>
 
             <!-- Text Content -->
             <div class="text-center">
-              <h3 class="text-xl font-bold text-gray-900">
+              <h3 class="text-[30px] font-bold text-gray-900">
                 {{ member.name }}
               </h3>
-              <p class="text-gray-600 mt-1 font-semibold">{{ member.position }}</p>
+              <p class="text-gray-600 mt-1 font-semibold text-[20px]">{{ member.position }}</p>
 
 
 
