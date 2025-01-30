@@ -223,9 +223,9 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/consulting.svg"
                   alt="Digital Transformation"
-                  width="360px"
+                  width="260px"
                   loading="lazy"
                 />
               </div>
