@@ -83,7 +83,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cloud Migration
+              Cloud Infrastructure
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Business Process Re-Engineering (BPR) optimizes core processes by
@@ -130,7 +130,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Business Process Re-engineering
+              Implementation Management
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Our team helps analyze and redesign your workflows, automating
@@ -154,7 +154,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Data Analytics
+              Data Management
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Transform your raw data into actionable insights with our advanced
@@ -195,15 +195,15 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/qualityAssurance.svg"
                   alt="Digital Transformation"
-                  width="360px"
+                  width="260px"
                   loading="lazy"
                 />
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              Quality Assurance
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Protect your digital assets with our comprehensive security
@@ -231,7 +231,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              Consulting Services
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Protect your digital assets with our comprehensive security
@@ -248,7 +248,7 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/projectManagement.svg"
                   alt="Digital Transformation"
                   width="360px"
                   loading="lazy"
@@ -256,7 +256,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              Project Management
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Protect your digital assets with our comprehensive security

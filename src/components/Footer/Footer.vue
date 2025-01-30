@@ -10,7 +10,7 @@
           <a href="mailto:solutions@holmenconsult.com" class="text-sm font-semibold text-blue-600 hover:underline block mb-1">
             solutions@holmenconsult.com
           </a>
-          <p class="text-sm mb-4 font-bold">+234 901 072 6699</p>
+          <p class="text-sm mb-4 font-bold">08148592834</p>
           <button class="bg-purple-500 text-white px-6 py-2 rounded-md font-bold">
             Get In Touch
           </button>
