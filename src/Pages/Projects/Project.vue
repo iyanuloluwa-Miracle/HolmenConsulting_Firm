@@ -142,22 +142,22 @@ export default {
         {
           image: laptop,
           description:
-            "",
+            "We developed and implemented processes, including IT Service Delivery, IT Project Delivery, IT Backup and Recovery, and IT Vendor Management,for a leading commercial bank,resulting in enhanced operational efficiency for the institution",
         },
         {
           image: cloud_migration,
           description:
-            "",
+            "We developed a cross-platform mobile application for a bank to enhance their operations, integrating it with NIBBS to enable customers to perform daily transactions through the app. The application was designed to be cross-platform, compatible with mobile devices (iOS and Android), as well as desktop and web applications.",
         },
         {
           image: internet_security,
           description:
-            "",
+            "Rollout of various mult-layered Security infrastructure for a development bank consisting of Web Application Firewall,Database Activity Monitoring, Encryption of Database & Files & Network Access Control.These four initiatives have totally strengthened the protection of their database & infrastructure.",
         },
         {
           image: software_image,
           description:
-            "",
+            "Led the migration of on-premise core servers with diverse databases to Azure Cloud Services for a major insurance conglomerate, significantly reducing IT infrastructure costs. Additionally, assisted three banks in migrating, integrating, and outsourcing on-premise security system monitoring to an MSSP cybersecurity solution.",
         },
       ],
 

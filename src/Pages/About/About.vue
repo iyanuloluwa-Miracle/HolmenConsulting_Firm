@@ -10,11 +10,14 @@
           About <span class="text-purple-500">Us</span>
         </h2>
         <p class="text-gray-600 leading-relaxed mb-6 font-bold text-[22px]">
-          We are a tightly focused professional services organization dedicated
-          to empowering businesses with innovative, insightful, and
-          results-driven solutions. Our expertise spans across strategy,
-          technology, and creative services, enabling us to address complex
-          challenges and drive measurable success.
+          At Holmen, we are a technology professional services company dedicated
+          to empowering clients across the financial, telecom, energy,
+          manufacturing, and service industries. We specialize in delivering
+          transformative digital solutions that drive innovation, operational
+          excellence, and enhance value. With a focus on digital transformation,
+          we leverage cutting-edge technology and strategic insights to enable
+          our clients achieve greater productivity and sustainable growth in a
+          rapidly evolving digital landscape.
         </p>
         <button
           class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out"
@@ -25,7 +28,8 @@
 
       <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
         <img
-          src="../../assets/Images/aboutUs.svg" loading="lazy"
+          src="../../assets/Images/aboutUs.svg"
+          loading="lazy"
           alt="A diverse team of professionals working together at computers"
           class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
         />
@@ -346,15 +350,14 @@
             <div
               class="relative w-full aspect-square mb-4 overflow-hidden rounded-lg"
             >
-            <a>
-              <img
-                :src="member.image" loading="lazy"
-                :alt="member.name"
-                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-
-            </a>
-              
+              <a>
+                <img
+                  :src="member.image"
+                  loading="lazy"
+                  :alt="member.name"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+              </a>
             </div>
 
             <!-- Text Content -->
@@ -362,13 +365,12 @@
               <h3 class="text-[30px] font-bold text-gray-900">
                 {{ member.name }}
               </h3>
-              <p class="text-gray-600 mt-1 font-semibold text-[20px]">{{ member.position }}</p>
-
-
+              <p class="text-gray-600 mt-1 font-semibold text-[20px]">
+                {{ member.position }}
+              </p>
 
               <!-- Social Links -->
               <div class="flex justify-center gap-4 mt-3">
-
                 <a
                   v-for="social in member.socials"
                   :key="social.type"
@@ -385,66 +387,63 @@
       </div>
     </div>
   </div>
-  <Footer/>
-
-
+  <Footer />
 </template>
 
 <script>
 import Navbar from "../../components/Navbar/Navbar.vue";
-import { MailIcon, LinkedinIcon, GithubIcon } from 'lucide-vue-next'
-import Yomi_Akinade from '../../assets/Images/YAA.svg'
-import Niyi from '../../assets/Images/Niyi.svg'
-import Yemi from '../../assets/Images/Yemi.svg'
+import { MailIcon, LinkedinIcon, GithubIcon } from "lucide-vue-next";
+import Yomi_Akinade from "../../assets/Images/YAA.svg";
+import Niyi from "../../assets/Images/Niyi.svg";
+import Yemi from "../../assets/Images/Yemi.svg";
 import Footer from "../../components/Footer/Footer.vue";
-
 
 export default {
   components: {
     Navbar,
-     Footer,
+    Footer,
     MailIcon,
     LinkedinIcon,
-    GithubIcon
+    GithubIcon,
   },
   data() {
     return {
       teamMembers: [
         {
           id: 1,
-          name: 'Yomi Akinade',
-          position: 'Managing Partner',
+          name: "Yomi Akinade",
+          position: "Managing Partner",
           image: Yomi_Akinade,
           socials: [
-            { type: 'email', icon: 'MailIcon', link: '#' },
-            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
-            { type: 'github', icon: 'GithubIcon', link: '#' }
-          ]
+            { type: "email", icon: "MailIcon", link: "#" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
+            { type: "github", icon: "GithubIcon", link: "#" },
+          ],
         },
         {
           id: 2,
-          name: 'Niyi Odunlami',
-          position: 'Partner',
+          name: "Niyi Odunlami",
+          position: "Partner",
           image: Niyi,
           socials: [
-            { type: 'email', icon: 'MailIcon', link: '#' },
-            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
-            { type: 'github', icon: 'GithubIcon', link: '#' }
-          ]
+            { type: "email", icon: "MailIcon", link: "#" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
+            { type: "github", icon: "GithubIcon", link: "#" },
+          ],
         },
         {
           id: 3,
-          name: 'Yemi Kuti',
-          position: 'Partner - Business Transformation',
+          name: "Yemi Kuti",
+          position: "Partner - Business Transformation",
           image: Yemi,
           socials: [
-            { type: 'email', icon: 'MailIcon', link: '#' },
-            { type: 'linkedin', icon: 'LinkedinIcon', link: '#' },
-            { type: 'github', icon: 'GithubIcon', link: '#' }
-          ]
-        }
-      ]
-    }
-  }
-}
+            { type: "email", icon: "MailIcon", link: "#" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
+            { type: "github", icon: "GithubIcon", link: "#" },
+          ],
+        },
+      ],
+    };
+  },
+};
 </script>
