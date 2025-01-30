@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../Pages/Home/Home.vue";
 import About from "../Pages/About/About.vue";
 import Projects from "../Pages/Projects/Project.vue";
-import Services from '../Pages/Solutions&Services/SolutionPage.vue';
+//import Services from '../Pages/Solutions&Services/SolutionPage.vue';
 import Contact from "../Pages/Contact/Contact.vue";
 // import GetInTouch from "../views/GetInTouch.vue";
 
@@ -28,11 +28,11 @@ const routes = [
     name: "Contact",
     component: Contact,
   },
-  {
-    path: "/Services",
-    name: "Services",
-    component: Services,
-  },
+  // {
+  //   path: "/Services",
+  //   name: "Services",
+  //   component: Services,
+  // },
 ];
 
 // Create Router Instance

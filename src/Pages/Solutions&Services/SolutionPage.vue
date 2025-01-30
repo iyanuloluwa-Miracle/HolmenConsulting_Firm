@@ -5,7 +5,7 @@
       <div
         class="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10"
       >
-        <!-- Text Content -->
+        
         <div class="lg:w-1/2 max-w-xl">
           <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             <span class="text-purple-500">Digital</span> Solutions<br />
@@ -27,7 +27,7 @@
           </button>
         </div>
 
-        <!-- Image Container -->
+        
         <div class="lg:w-1/2 flex justify-center lg:justify-end">
           <div class="w-full max-w-sm">
             <img
@@ -49,7 +49,7 @@
       </h1>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-        <!-- Digital Transformation Card -->
+       
         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
@@ -71,7 +71,7 @@
           </p>
         </div>
 
-        <!-- Cloud Migration Card -->
+      
         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
@@ -92,7 +92,7 @@
           </p>
         </div>
 
-        <!-- ERP & Core Systems Card -->
+        
         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
@@ -113,7 +113,6 @@
           </p>
         </div>
 
-        <!-- Business Process Re-engineering Card -->
         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
@@ -134,7 +133,7 @@
           </p>
         </div>
 
-        <!-- Data Analytics Card -->
+      
         <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >
@@ -155,7 +154,7 @@
           </p>
         </div>
 
-        <!-- Cybersecurity Solutions Card -->
+       
          <div
           class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
         >

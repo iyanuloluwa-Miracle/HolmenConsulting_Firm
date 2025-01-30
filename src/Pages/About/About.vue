@@ -186,6 +186,163 @@
               services to keep your data safe.
             </p>
           </div>
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
+
+
+
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
+
+
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
+
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
+
+
+
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
+          </div>
         </div>
       </div>
     </div>

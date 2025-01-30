@@ -59,7 +59,7 @@
           <a href="#" class="hover:underline font-bold">Sitemap</a>
         </div>
         <!-- Copyright -->
-        <p class="mt-4 sm:mt-0 font-bold">© 2021 Holmen Consulting. All rights reserved.</p>
+        <p class="mt-4 sm:mt-0 font-bold">© 2025 Holmen Consulting. All rights reserved.</p>
       </div>
     </div>
   </footer>
