@@ -35,9 +35,9 @@
           <li class="block py-2 px-3 text-gray-700 rounded md:bg-transparent md:p-0 md:dark:text-gray-400 font-bold dark:hover:text-[#4E4545]">
             <router-link to="/about">About</router-link>
           </li>
-          <li class="block py-2 px-3 text-gray-700 rounded md:bg-transparent md:p-0 md:dark:text-gray-400 font-bold dark:hover:text-[#4E4545]">
+          <!-- <li class="block py-2 px-3 text-gray-700 rounded md:bg-transparent md:p-0 md:dark:text-gray-400 font-bold dark:hover:text-[#4E4545]">
             <router-link to="/services">Solutions & Services</router-link>
-          </li>
+          </li> -->
           <li class="block py-2 px-3 text-gray-700  rounded md:bg-transparent md:p-0 md:dark:text-gray-400 font-bold dark:hover:text-[#4E4545]">
             <router-link to="/projects">Projects</router-link>
           </li>

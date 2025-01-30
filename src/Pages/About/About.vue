@@ -38,298 +38,154 @@
 
     <div class="py-15 px-6 bg-[#FDEEFF]">
       <h2 class="text-5xl font-bold text-center mb-10 pt-10">
-        What we believe
+        What We Do
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Digital Transformation -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/Transformation.svg"
-              alt="Digital Transformation"
-              class="w-12 h-12"
-            />
+      <div class="container mx-auto px-4 py-12 bg-[#FDEEFF]">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Digital Transformation Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/dt.svg"
+                  alt="Digital Transformation"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2
+              class="text-[33px] font-semibold text-gray-800 mb-4 text-center"
+            >
+              Digital Transformation
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              We will define your digital IT architecture and design a
+              transformation road-map to digitize your assets, align your people
+              with your business goals, stimulate innovation, drive operational
+              efficiency.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-4">Digital Transformation</h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Modernizing IT Infrastructure and System.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Enhancing Customer Experience with AI and Machine
-                Learning.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Optimizing Operations through Automation.</span
-              >
-            </li>
-          </ul>
-        </div>
 
-        <!-- Target Market -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/market.svg"
-              alt="Target Market"
-              class="w-12 h-12"
-            />
+          <!-- Cloud Migration Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/CM.svg"
+                  loading="lazy"
+                  alt="Digital Transformation"
+                  width="250px"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cloud Migration
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Business Process Re-Engineering (BPR) optimizes core processes by
+              automating non-value-added tasks. Our team collaborates to analyze
+              and redesign your workflows.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-4">Target Market</h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Companies or Institutions in Transition.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Fast growing Entities or Large Corporate Groups</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold">Start ups.</span>
-            </li>
-          </ul>
-        </div>
 
-        <!-- Improved Management Focus -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/Focus (2).svg"
-              alt="Improved Management Focus"
-              class="w-12 h-12"
-            />
+          <!-- ERP & Core Systems Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/erp.svg"
+                  loading="lazy"
+                  alt="Digital Transformation"
+                  width="310px"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              ERP & Core Systems
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Simple and effective implementation of ERP solutions with
+              acceptable levels of customization to meet your needs.
+              Understanding your requirements is critical.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-4">Improved Management Focus</h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2 font-semibold">•</span>
-              <span class="font-semibold"
-                >Delivering first class professional service to Clients.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Less bureaucracy promotes faster decision.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Independence ensures objectiveness.</span
-              >
-            </li>
-          </ul>
-        </div>
 
-        <!-- Operating Model -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/operating-model.svg"
-              alt="Operating Model"
-              class="w-12 h-12"
-            />
+          <!-- Business Process Re-engineering Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/bussiness.svg"
+                  alt="Digital Transformation"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Business Process Re-engineering
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Our team helps analyze and redesign your workflows, automating
+              processes where possible to enhance efficiency and reduce costs
+              while maintaining quality.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-4">Operating Model</h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Management, sales and delivery aligned at a local/market
-                level.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Market/Customer-focused model( vs a matrix or “corporate
-                top-down model)”.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold">Privately held.</span>
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 pt-20">
-        <!-- Focus on building strong customer relationships -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/award.svg"
-              alt="Digital Transformation"
-              class="w-12 h-12"
-            />
+          <!-- Data Analytics Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/it-infrastructure.svg"
+                  alt="Digital Transformation"
+                  width="280px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Data Analytics
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Transform your raw data into actionable insights with our advanced
+              analytics solutions. We help you make data-driven decisions to
+              drive business growth.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-2">
-            Focus on building strong customer relationships
-          </h3>
 
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Provide superior customer service.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Customer feedback solicited on every assignment or project,
-                with managerial follow-up.</span
-              >
-            </li>
-
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Team and individual accountability</span
-              >
-            </li>
-          </ul>
-        </div>
-
-        <!-- Target Market -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/market.svg"
-              alt="Target Market"
-              class="w-12 h-12"
-            />
+          <!-- Cybersecurity Solutions Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+          >
+            <div class="flex justify-center mb-6">
+              <div class="relative">
+                <img
+                  src="../../assets/Images/Data-security.svg"
+                  alt="Digital Transformation"
+                  width="360px"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+            <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
+              Cybersecurity Solutions
+            </h2>
+            <p class="text-gray-600 text-center text-xl font-semibold">
+              Protect your digital assets with our comprehensive security
+              solutions. We provide threat detection, prevention, and response
+              services to keep your data safe.
+            </p>
           </div>
-          <h3 class="text-[25px] font-bold mb-2">
-            Commitment to employee personal and professional growth
-          </h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Companies or Institutions in Transition</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Fast growing Entities or Large Corporate Groups</span
-              >
-            </li>
-
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold">Start ups.</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Improved Management Focus -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/focus.svg"
-              alt="Improved Management Focus"
-              class="w-12 h-12"
-            />
-          </div>
-          <h3 class="text-[25px] font-bold mb-2">Better Customer Focus</h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Business decisions made closet to the market/customer.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Offerings locally tailored to specific customer needs.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Dedication to ethical practices.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Fostering collaboration and teamwork.</span
-              >
-            </li>
-          </ul>
-        </div>
-
-        <!-- Operating Model -->
-        <div
-          class="flex flex-col items-center text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-full max-w-sm mx-auto"
-        >
-          <div>
-            <img
-              src="../../assets/Images/user.svg"
-              alt="Operating Model"
-              class="w-12 h-12"
-            />
-          </div>
-          <h3 class="text-[25px] font-bold mb-2">
-            Excellence in management and leadership
-          </h3>
-          <ul class="text-left text-gray-600 space-y-2">
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold">Accountability for results.</span>
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Accountability to those supervised</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Respect for diversity and inclusion.</span
-              >
-            </li>
-            <li class="flex items-start">
-              <span class="mr-2">•</span>
-              <span class="font-semibold"
-                >Transparency in decision-making processes.</span
-              >
-            </li>
-          </ul>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <Navbar />
     <section class="container mx-auto pt-32 pb-20 px-6 lg:px-20">
@@ -190,4 +190,4 @@ export default {
     Footer
   },
 };
-</script>
+</script> -->
