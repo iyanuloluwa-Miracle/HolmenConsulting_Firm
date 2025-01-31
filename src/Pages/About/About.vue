@@ -2,44 +2,42 @@
   <div>
     <Navbar />
 
-    <div
-      class="flex flex-col md:flex-row justify-between items-center py-12 px-6"
+    <div class="flex flex-col md:flex-row justify-between items-center py-12 px-6 md:py-12 md:px-6">
+  <!-- Text Content -->
+  <div class="w-full md:w-1/2 md:mr-12 md:ml-11">
+    <h2 class="text-3xl md:text-4xl font-bold mt-6 md:mt-12">
+      About <span class="text-purple-500">Us</span>
+    </h2>
+    <p class="text-gray-600 leading-relaxed mb-6 font-bold text-lg md:text-[22px]">
+      At Holmen, we are a technology professional services company dedicated
+      to empowering clients across the financial, telecom, energy,
+      manufacturing, and service industries. We specialize in delivering
+      transformative digital solutions that drive innovation, operational
+      excellence, and enhance value. With a focus on digital transformation,
+      we leverage cutting-edge technology and strategic insights to enable
+      our clients achieve greater productivity and sustainable growth in a
+      rapidly evolving digital landscape.
+    </p>
+    <button
+      class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 md:py-3 md:px-6 rounded-md transition duration-300 ease-in-out"
     >
-      <div class="md:w-1/2 md:mr-12 ml-11">
-        <h2 class="text-4xl font-bold mt-12">
-          About <span class="text-purple-500">Us</span>
-        </h2>
-        <p class="text-gray-600 leading-relaxed mb-6 font-bold text-[22px]">
-          At Holmen, we are a technology professional services company dedicated
-          to empowering clients across the financial, telecom, energy,
-          manufacturing, and service industries. We specialize in delivering
-          transformative digital solutions that drive innovation, operational
-          excellence, and enhance value. With a focus on digital transformation,
-          we leverage cutting-edge technology and strategic insights to enable
-          our clients achieve greater productivity and sustainable growth in a
-          rapidly evolving digital landscape.
-        </p>
-        <button
-          class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 ease-in-out"
-        >
-          Meet the Team
-        </button>
-      </div>
+      Meet the Team
+    </button>
+  </div>
 
-      <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center pt-11">
-        <img
-          src="../../assets/Images/aboutUs.svg"
-          loading="lazy"
-          alt="A diverse team of professionals working together at computers"
-          class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
-        />
-      </div>
-    </div>
+  <!-- Image -->
+  <div class="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center md:pt-11">
+    <img
+      src="../../assets/Images/aboutUs.svg"
+      loading="lazy"
+      alt="A diverse team of professionals working together at computers"
+      class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
+    />
+  </div>
+</div>
 
     <div class="py-15 px-6 bg-[#FDEEFF]">
-      <h2 class="text-5xl font-bold text-center mb-10 pt-10">
-        What We Do
-      </h2>
+      <h2 class="text-5xl font-bold text-center mb-10 pt-10">What We Do</h2>
       <div class="container mx-auto px-4 py-12 bg-[#FDEEFF]">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Digital Transformation Card -->
@@ -110,9 +108,8 @@
               ERP & Core Systems
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Simple and effective implementation of ERP solutions with
-              acceptable levels of customization to meet your needs.
-              Understanding your requirements is critical.
+              Leveraging modern technology to extend and improve core banking &
+              business processes & rolling out IT Infrastructure.
             </p>
           </div>
 
@@ -133,9 +130,9 @@
               Implementation Management
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Our team helps analyze and redesign your workflows, automating
-              processes where possible to enhance efficiency and reduce costs
-              while maintaining quality.
+              Designing Processes with Best Business Practices to mapping
+              Business Requirements to Solution Designs & managing Resources,
+              Materials & Technology.
             </p>
           </div>
 
@@ -181,12 +178,11 @@
               Cybersecurity Solutions
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We deploy end-to-end cybersecurity solutions, including NAC,
+              encryption stacks, WAF, DAM, and more, as well as SOC solutions,
+              managing complete security operations centers for our clients
             </p>
           </div>
-
 
           <!-- Cybersecurity Solutions Card -->
           <div
@@ -206,15 +202,11 @@
               Quality Assurance
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We provide comprehensive quality assurance services to ensure that
+              products and processes meet the highest standards of reliability,
+              functionality, and user satisfaction.
             </p>
           </div>
-
-
-
-
 
           <!-- Cybersecurity Solutions Card -->
           <div
@@ -234,12 +226,11 @@
               Consulting Services
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We offer expert project management services to ensure successful
+              planning, execution, and delivery of projects, aligning outcomes
+              with strategic business objectives
             </p>
           </div>
-
 
           <!-- Cybersecurity Solutions Card -->
           <div
@@ -259,14 +250,11 @@
               Project Management
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We offer expert project management services to ensure successful
+              planning, execution, and delivery of projects, aligning outcomes
+              with strategic business objectives.
             </p>
           </div>
-
-
-
 
           <!-- Cybersecurity Solutions Card -->
           <div
@@ -275,7 +263,7 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/softwareDevelopment.svg"
                   alt="Digital Transformation"
                   width="360px"
                   loading="lazy"
@@ -283,16 +271,15 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              Software Development
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We deliver innovative,user-focused software solutions that fuel
+              business growth and efficiency. With expertise in custom
+              development, mobile and web applications, cloud integration, and
+              data analytics.
             </p>
           </div>
-
-
 
           <!-- Cybersecurity Solutions Card -->
           <div
@@ -301,7 +288,7 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/advisoryService.svg"
                   alt="Digital Transformation"
                   width="360px"
                   loading="lazy"
@@ -309,7 +296,7 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              Advisory Services
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
               Protect your digital assets with our comprehensive security
@@ -318,8 +305,6 @@
             </p>
           </div>
 
-
-
           <!-- Cybersecurity Solutions Card -->
           <div
             class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
@@ -327,7 +312,7 @@
             <div class="flex justify-center mb-6">
               <div class="relative">
                 <img
-                  src="../../assets/Images/Data-security.svg"
+                  src="../../assets/Images/ITsupport.svg"
                   alt="Digital Transformation"
                   width="360px"
                   loading="lazy"
@@ -335,70 +320,53 @@
               </div>
             </div>
             <h2 class="text-[33px] font-bold text-gray-800 mb-4 text-center">
-              Cybersecurity Solutions
+              IT Organization Support
             </h2>
             <p class="text-gray-600 text-center text-xl font-semibold">
-              Protect your digital assets with our comprehensive security
-              solutions. We provide threat detection, prevention, and response
-              services to keep your data safe.
+              We specialize in IT organization restructuring, technology
+              support, and implementing best practice process engineering to
+              optimize operational efficiency and drive business growth.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="bg-white py-12 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="text-[48px] md:text-[48px] font-bold text-center mb-12">
-          Our <span class="text-purple-600">Team</span>
-        </h2>
+    <div class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-serif text-purple-700 text-center mb-2">
+        Meet Our Team
+      </h1>
+      
+      <!-- Grid container with responsive layout -->
+      <div class="flex flex-col lg:flex-row gap-8 justify-center items-center mt-8">
+        <div 
+          v-for="member in teamMembers" 
+          :key="member.id"
+          class="flex flex-col items-center w-full lg:w-1/4"
+        >
+          <!-- Circular Image Container -->
+          <div class="w-48 h-48 mb-6 rounded-full overflow-hidden bg-sky-100">
+            <img
+              :src="member.image"
+              :alt="member.name"
+              class="w-full h-full object-cover"
+            />
+          </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div
-            v-for="member in teamMembers"
-            :key="member.id"
-            class="flex flex-col items-center group"
-          >
-            <!-- Image Container -->
-            <div
-              class="relative w-full aspect-square mb-4 overflow-hidden rounded-lg"
-            >
-              <a>
-                <img
-                  :src="member.image"
-                  loading="lazy"
-                  :alt="member.name"
-                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-              </a>
-            </div>
-
-            <!-- Text Content -->
-            <div class="text-center">
-              <h3 class="text-[30px] font-bold text-gray-900">
-                {{ member.name }}
-              </h3>
-              <p class="text-gray-600 mt-1 font-semibold text-[20px]">
-                {{ member.position }}
-              </p>
-
-              <!-- Social Links -->
-              <div class="flex justify-center gap-4 mt-3">
-                <a
-                  v-for="social in member.socials"
-                  :key="social.type"
-                  :href="social.link"
-                  class="text-gray-400 hover:text-purple-600 transition-colors duration-300"
-                  :aria-label="`${member.name}'s ${social.type}`"
-                >
-                  <component :is="social.icon" class="w-5 h-5" />
-                </a>
-              </div>
-            </div>
+          <!-- Member Info -->
+          <div class="text-center">
+            <h3 class="text-xl text-purple-700 font-medium mb-2">
+              {{ member.name }}
+            </h3>
+            <p class="text-sm text-gray-700 max-w-[200px]">
+              {{ member.position }}
+            </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <Footer />
 </template>
@@ -430,7 +398,6 @@ export default {
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
             { type: "linkedin", icon: "LinkedinIcon", link: "#" },
-            { type: "github", icon: "GithubIcon", link: "#" },
           ],
         },
         {
@@ -441,7 +408,6 @@ export default {
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
             { type: "linkedin", icon: "LinkedinIcon", link: "#" },
-            { type: "github", icon: "GithubIcon", link: "#" },
           ],
         },
         {
@@ -452,7 +418,17 @@ export default {
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
             { type: "linkedin", icon: "LinkedinIcon", link: "#" },
-            { type: "github", icon: "GithubIcon", link: "#" },
+          ],
+        },
+
+        {
+          id: 3,
+          name: "Yemi Kuti",
+          position: "Partner - Business Transformation",
+          image: Yemi,
+          socials: [
+            { type: "email", icon: "MailIcon", link: "#" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
           ],
         },
       ],
