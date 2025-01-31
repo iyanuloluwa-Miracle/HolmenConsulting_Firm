@@ -356,10 +356,10 @@
 
           <!-- Member Info -->
           <div class="text-center">
-            <h3 class="text-xl text-purple-700 font-medium mb-2">
+            <h3 class="text-2xl text-purple-700 font-bold mb-2">
               {{ member.name }}
             </h3>
-            <p class="text-sm text-gray-700 max-w-[200px]">
+            <p class="text-[18px] text-gray-700 max-w-[200px] font-semibold">
               {{ member.position }}
             </p>
           </div>
@@ -421,16 +421,16 @@ export default {
           ],
         },
 
-        {
-          id: 3,
-          name: "Yemi Kuti",
-          position: "Partner - Business Transformation",
-          image: Yemi,
-          socials: [
-            { type: "email", icon: "MailIcon", link: "#" },
-            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
-          ],
-        },
+        // {
+        //   id: 3,
+        //   name: "Yemi Kuti",
+        //   position: "Partner - Business Transformation",
+        //   image: Yemi,
+        //   socials: [
+        //     { type: "email", icon: "MailIcon", link: "#" },
+        //     { type: "linkedin", icon: "LinkedinIcon", link: "#" },
+        //   ],
+        // },
       ],
     };
   },
