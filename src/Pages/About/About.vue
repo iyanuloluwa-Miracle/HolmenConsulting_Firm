@@ -403,7 +403,7 @@ export default {
         {
           id: 2,
           name: "Niyi Odunlami",
-          position: "Partner",
+          position: "Partner: Core Business Systems",
           image: Niyi,
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
@@ -412,8 +412,8 @@ export default {
         },
         {
           id: 3,
-          name: "Yemi Kuti",
-          position: "Partner - Business Transformation",
+          name: "Yemi Keri",
+          position: "Partner: Business Transformation and Program Management",
           image: Yemi,
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
