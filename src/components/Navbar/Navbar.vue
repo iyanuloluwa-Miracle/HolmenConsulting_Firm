@@ -8,7 +8,7 @@
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
         <button
           type="button"
-          class="text-[#B262BA] dark:hover:text-white bg-[#E6B3E6] hover:bg-[#E6B3E6] focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm h-12 px-4 py-2 text-center dark:bg-[#E6B3E6] dark:hover:bg-[#B262BA] dark:focus:ring-[#E6B3E6]"
+          class="text-[#B262BA] dark:hover:text-white bg-[#6F3CB1] hover:bg-[#593e7c] focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm h-12 px-4 py-2 text-center dark:bg-[#E6B3E6] dark:hover:bg-[#B262BA] dark:focus:ring-[#E6B3E6]"
         >
           Get in touch
         </button>
