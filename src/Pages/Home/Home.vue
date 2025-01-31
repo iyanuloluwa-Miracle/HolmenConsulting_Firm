@@ -68,7 +68,7 @@
               >
                 <div class="mb-4">
                   <img
-                    src="../../assets/Images/consulting.svg"
+                    src="../../assets/Images/counselling.svg"
                     alt="User Icon"
                     className="w-10 h-10 mx-auto animate-bounce"
                     loading="lazy"

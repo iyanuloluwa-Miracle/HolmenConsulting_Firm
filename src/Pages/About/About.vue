@@ -346,7 +346,7 @@
           class="flex flex-col items-center w-full lg:w-1/4"
         >
           <!-- Circular Image Container -->
-          <div class="w-48 h-48 mb-6 rounded-full overflow-hidden bg-sky-100">
+          <div class="w-48 h-48 mb-6 rounded-full overflow-hidden">
             <img
               :src="member.image"
               :alt="member.name"
