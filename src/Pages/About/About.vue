@@ -2,39 +2,43 @@
   <div>
     <Navbar />
 
-    <div class="flex flex-col md:flex-row justify-between items-center py-12 px-6 md:py-12 md:px-6">
-  <!-- Text Content -->
-  <div class="w-full md:w-1/2 md:mr-12 md:ml-11">
-    <h2 class="text-3xl md:text-4xl font-bold mt-6 md:mt-12">
-      About <span class="text-purple-500">Us</span>
-    </h2>
-    <p class="text-gray-600 leading-relaxed mb-6 font-bold text-lg md:text-[22px]">
-      At Holmen, we are a technology professional services company dedicated
-      to empowering clients across the financial, telecom, energy,
-      manufacturing, and service industries. We specialize in delivering
-      transformative digital solutions that drive innovation, operational
-      excellence, and enhance value. With a focus on digital transformation,
-      we leverage cutting-edge technology and strategic insights to enable
-      our clients achieve greater productivity and sustainable growth in a
-      rapidly evolving digital landscape.
-    </p>
-    <button
-      class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 md:py-3 md:px-6 rounded-md transition duration-300 ease-in-out"
+    <div
+      class="flex flex-col md:flex-row justify-between items-center py-12 px-6 md:py-12 md:px-6"
     >
-      Meet the Team
-    </button>
-  </div>
+      <!-- Text Content -->
+      <div class="w-full md:w-1/2 md:mr-12 md:ml-11">
+        <h2 class="text-3xl md:text-4xl font-bold mt-6 md:mt-12">
+          About <span class="text-purple-500">Us</span>
+        </h2>
+        <p
+          class="text-gray-600 leading-relaxed mb-6 font-bold text-lg md:text-[22px]"
+        >
+          At Holmen, we are a technology professional services company dedicated
+          to empowering clients across the financial, telecom, energy,
+          manufacturing, and service industries. We specialize in delivering
+          transformative digital solutions that drive innovation, operational
+          excellence, and enhance value. With a focus on digital transformation,
+          we leverage cutting-edge technology and strategic insights to enable
+          our clients achieve greater productivity and sustainable growth in a
+          rapidly evolving digital landscape.
+        </p>
+        <button
+          class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 md:py-3 md:px-6 rounded-md transition duration-300 ease-in-out"
+        >
+          Meet the Team
+        </button>
+      </div>
 
-  <!-- Image -->
-  <div class="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center md:pt-11">
-    <img
-      src="../../assets/Images/aboutUs.svg"
-      loading="lazy"
-      alt="A diverse team of professionals working together at computers"
-      class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
-    />
-  </div>
-</div>
+      <!-- Image -->
+      <div class="w-full md:w-1/2 mt-6 md:mt-0 flex justify-center md:pt-11">
+        <img
+          src="../../assets/Images/aboutUs.svg"
+          loading="lazy"
+          alt="A diverse team of professionals working together at computers"
+          class="w-full max-w-[480px] rounded-lg shadow-lg h-auto object-cover"
+        />
+      </div>
+    </div>
 
     <div class="py-15 px-6 bg-[#FDEEFF]">
       <h2 class="text-5xl font-bold text-center mb-10 pt-10">What We Do</h2>
@@ -333,40 +337,52 @@
     </div>
 
     <div class="bg-white py-16 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-serif text-purple-700 text-center mb-2">
-        Meet Our Team
-      </h1>
-      
-      <!-- Grid container with responsive layout -->
-      <div class="flex flex-col lg:flex-row gap-8 justify-center items-center mt-8">
-        <div 
-          v-for="member in teamMembers" 
-          :key="member.id"
-          class="flex flex-col items-center w-full lg:w-1/4"
+      <div class="max-w-7xl mx-auto">
+        <h1
+          class="text-4xl md:text-5xl font-serif text-purple-700 text-center mb-2"
         >
-          <!-- Circular Image Container -->
-          <div class="w-48 h-48 mb-6 rounded-full overflow-hidden">
-            <img
-              :src="member.image"
-              :alt="member.name"
-              class="w-full h-full object-cover"
-            />
-          </div>
+          Meet Our Team
+        </h1>
 
-          <!-- Member Info -->
-          <div class="text-center">
-            <h3 class="text-2xl text-purple-700 font-bold mb-2">
-              {{ member.name }}
-            </h3>
-            <p class="text-[18px] text-gray-700 max-w-[200px] font-semibold">
-              {{ member.position }}
-            </p>
+        <!-- Grid container with responsive layout -->
+        <div
+          class="flex flex-col lg:flex-row gap-8 justify-center items-center mt-8"
+        >
+          <div
+            v-for="member in teamMembers"
+            :key="member.id"
+            class="flex flex-col items-center w-full lg:w-1/4"
+          >
+            <!-- Circular Image Container -->
+            <div class="w-48 h-48 mb-6 rounded-full overflow-hidden">
+              <img
+                :src="member.image"
+                :alt="member.name"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- Member Info -->
+            <div class="text-center">
+              <h3 class="text-2xl text-purple-700 font-bold mb-2">
+                {{ member.name }}
+              </h3>
+              <p class="text-[18px] text-gray-700 max-w-[200px] font-semibold">
+                {{ member.position }}
+              </p>
+            </div>
+
+            <!-- View Profile Button -->
+            <router-link
+              :to="`/profile/${member.id}`"
+              class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-4 mt-3 rounded-md transition duration-300 ease-in-out"
+            >
+              View Profile
+            </router-link>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
   <Footer />
 </template>

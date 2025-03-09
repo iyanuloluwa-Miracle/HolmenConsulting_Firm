@@ -18,7 +18,7 @@
 
         <div class="mt-6">
           <a
-            href="https://wa.me/+2349016470826"
+            href="https://wa.me/+8148595834"
             class="inline-block px-6 py-3 bg-purple-500 text-white font-bold text-sm rounded-lg shadow-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
           >
             Book a Free Consulting Call
