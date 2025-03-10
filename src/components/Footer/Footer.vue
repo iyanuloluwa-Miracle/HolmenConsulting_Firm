@@ -11,7 +11,7 @@
             solutions@holmentechnologies.com
           </a>
           <p class="text-sm mb-4 font-bold">08148592834</p>
-          <button class="bg-purple-500 text-white px-6 py-2 rounded-md font-bold">
+          <button class="bg-[#6E3BB0] text-white px-6 py-2 rounded-md font-bold">
             Get In Touch
           </button>
         </div>
@@ -42,7 +42,7 @@
               placeholder="Enter your email"
               class="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none"
             />
-            <button class="bg-purple-500 text-white px-6 py-2 rounded-md mt-3 w-full font-bold">
+            <button class="bg-[#6E3BB0] text-white px-6 py-2 rounded-md mt-3 w-full font-bold">
               Subscribe
             </button>
           </div>

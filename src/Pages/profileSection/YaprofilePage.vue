@@ -154,9 +154,9 @@
             }
           ],
           socials: [
-            { type: "email", icon: "MailIcon", link: "mailto:yomi@holmen.com", label: "Email" },
-            { type: "linkedin", icon: "LinkedinIcon", link: "https://linkedin.com/", label: "LinkedIn" },
-            { type: "phone", icon: "PhoneIcon", link: "tel:+1234567890", label: "Call" },
+            { type: "email", icon: "MailIcon", link: "#", label: "Email" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#", label: "LinkedIn" },
+            { type: "phone", icon: "PhoneIcon", link: "#", label: "Call" },
           ]
         }
       };

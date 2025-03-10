@@ -186,19 +186,19 @@ export default {
           {
             type: "email",
             icon: "MailIcon",
-            link: "mailto:yomi@holmen.com",
+            link: "#",
             label: "Email",
           },
           {
             type: "linkedin",
             icon: "LinkedinIcon",
-            link: "https://linkedin.com/",
+            link: "#",
             label: "LinkedIn",
           },
           {
             type: "phone",
             icon: "PhoneIcon",
-            link: "tel:+1234567890",
+            link: "#",
             label: "Call",
           },
         ],
