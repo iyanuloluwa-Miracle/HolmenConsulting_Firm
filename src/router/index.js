@@ -11,6 +11,7 @@ import TayoProfile from "../Pages/profileSection/TayoProfilePage.vue";
 
 import YemiProfile from "../Pages/profileSection/YemiProfilePage.vue";
 
+import MICHAEL_J_SCHMIDT from "../Pages/profileSection/MichaelProfilePage.vue";
 // Define Routes
 const routes = [
   {
@@ -53,6 +54,12 @@ const routes = [
     path: "/profile/3", // This matches the ID in your teamMembers array
     name: "Yemi Keri",
     component: YemiProfile,
+  },
+
+  {
+    path: "/profile/4", // This matches the ID in your teamMembers array
+    name: "MICHAEL J SCHMIDT",
+    component: MICHAEL_J_SCHMIDT,
   },
   // {
   //   path: "/Services",
