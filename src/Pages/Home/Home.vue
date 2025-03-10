@@ -11,7 +11,7 @@
         </h1>
 
         <p class="mt-4 text-gray-600 text-base sm:text-lg lg:text-xl font-bold">
-          Holmen Consulting partner with businesses to provide scalable
+          Holmen Technologies partner with businesses to provide scalable
           enterprise solutions to meet the needs of our clients. Our solutions
           are delivered through a team of experienced, result-driven resources.
         </p>
@@ -281,34 +281,34 @@ export default {
       currentIndex: 0,
       testimonials: [
         {
-          text: "I worked with consultants @ Holmen Consulting for several years in ERP implementation consulting. They have significant expertise in ERP software packages, and a high level of motivation and self-initiatives. I would not hesitate to hire Holmen Consultants again at any time, should a future opportunity arise.",
+          text: "I worked with consultants at Holmen Technologies for several years in ERP implementation consulting. They have significant expertise in ERP software packages, and a high level of motivation and self-initiatives. I would not hesitate to hire Holmen Consultants again at any time, should a future opportunity arise.",
           author: "Kathy Wulfken, Practice Leader",
           company: "Latis Technologies Inc",
           image: testimonial_image,
         },
         {
-          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
+          text: "The team at  Holmen Technologies  provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
           image: testimonial_image,
         },
 
         {
-          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
+          text: "The team at  Holmen Technologies  provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
           image: testimonial_image,
         },
 
         {
-          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
+          text: "The team at  Holmen Technologies  provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
           image: testimonial_image,
         },
 
         {
-          text: "The team at Holmen Consulting provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
+          text: "The team at  Holmen Technologies  provided exceptional service throughout our ERP implementation project. Their expertise and dedication made the entire process smooth and successful.",
           author: "John Doe, Project Manager",
           company: "Tech Solutions Ltd",
           image: testimonial_image,
