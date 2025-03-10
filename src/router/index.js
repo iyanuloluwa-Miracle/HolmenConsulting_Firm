@@ -5,7 +5,7 @@ import Projects from "../Pages/Projects/Project.vue";
 //import Services from '../Pages/Solutions&Services/SolutionPage.vue';
 import Contact from "../Pages/Contact/Contact.vue";
 // import GetInTouch from "../views/GetInTouch.vue";
-
+import YomiProfile from "../Pages/profileSection/YaprofilePage.vue";
 // Define Routes
 const routes = [
   {
@@ -27,6 +27,13 @@ const routes = [
     path: "/contact",
     name: "Contact",
     component: Contact,
+  },
+
+
+  {
+    path: "/profile/1", // This matches the ID in your teamMembers array
+    name: "YomiProfile",
+    component: YomiProfile,
   },
   // {
   //   path: "/Services",
