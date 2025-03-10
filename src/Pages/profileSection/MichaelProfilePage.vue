@@ -6,11 +6,12 @@
       <div class="max-w-7xl mx-auto">
         <!-- Profile Header with Name and Title -->
         <div class="mb-16 text-center mt-16">
-          <h1 class="text-6xl font-bold text-gray-900 mb-4">TAYO OYOLOLA</h1>
+          <h1 class="text-6xl font-bold text-gray-900 mb-4">MICHAEL J SCHMIDT</h1>
           <h2
             class="text-4xl font-semibold text-gray-700 uppercase tracking-wider"
           >
-            BUSINESS DEVELOPMENT & PROJECT MANAGEMENT
+          INFRASTRUCTURE & WEB
+          DEVELOPMENT
           </h2>
           <div class="mt-6 border-t-2 border-gray-200 w-24 mx-auto"></div>
         </div>
@@ -34,41 +35,20 @@
           <div class="w-full md:w-3/5 lg:w-2/3">
             <div class="prose max-w-none text-gray-600 text-xl leading-relaxed">
               <p class="mb-8 font-semibold">
-                He earned a Bachelor of Science in Political Science from the
-                University of Lagos and a master’s degree in engineering and
-                technology project management from the University of
-                Wolverhampton in the UK. He is a PRINCE2 Practitioner and has
-                certifications from the MSP APMG Group in the UK, as well as
-                expertise in software project management
-              </p>
-              <p class="mb-8 font-semibold">
-                With 17 years of extensive experience in business analysis, he
-                has delivered IT projects across various sectors, including
-                financial services, insurance, energy (electricity, oil, and
-                gas), and the public sector. These projects have streamlined
-                business processes, enhanced productivity and profitability,
-                improved service quality, and transformed brand loyalty.
-              </p>
-              <p class="mb-8 font-semibold">
-                He has served as the Head of the Project Management and IT
-                Development Unit at Union Bank of Nigeria PLC and has held the
-                position of Project Manager for Her Majesty's Revenue & Customs
-                (HMRC) in the UK, as well as for Scottish & Southern Energy,
-                Scotia Gas, Esure Insurance, RBS WorldPay, the Royal Bank of
-                Scotland, Vocal Link, BP Oil, and British Gas.
-              </p>
-              <p class="font-semibold">
-                His software application experience includes financial systems,
-                billing solutions, content management ERP, enterprise service
-                bus (ESB), customer relationship management (CRM), business
-                intelligence, data warehousing, and contact center solutions
+                He is a graduate of the German Academy, holding certifications
+                from Cisco, Siemens, I-Planet, and Novell. With over 30 years of
+                international consulting experience across Europe, Africa, the
+                USA, and Canada, his main focus has been on developing IT
+                infrastructures, including networks, banking software security
+                systems, e-directory solutions, and servers. Throughout his
+                career, he has consulted for various clients in diverse
+                industries while working for firms such as Whittman-Hart,
+                marchFIRST, S-SCAPE Communications, and IBM over a span of 20
+                years.
               </p>
             </div>
           </div>
         </div>
-
-        <!-- Contact Section -->
-      
       </div>
     </div>
 
@@ -80,7 +60,7 @@
 import Navbar from "../../components/Navbar/Navbar.vue";
 import Footer from "../../components/Footer/Footer.vue";
 import { MailIcon, LinkedinIcon, PhoneIcon, GlobeIcon } from "lucide-vue-next";
-import Niyi from "../../assets/Images/Niyi.svg";
+import Michael from "../../assets/Images/michael.svg";
 
 export default {
   components: {
@@ -95,9 +75,9 @@ export default {
     return {
       profile: {
         id: 1,
-        name: "TAYO OYOLOLA",
-        position: "– PARTNER –BUSINESS DEVELOPMENT & PROJECT MANAGEMENT",
-        image: Niyi,
+        name: "Yomi Akinade",
+        position: "Managing Partner",
+        image: Michael,
         education: [
           {
             degree:
@@ -176,7 +156,6 @@ export default {
               "Created a multi-year digital transformation roadmap to modernize legacy systems, enhance customer experience, and implement data-driven decision making.",
           },
         ],
-       
       },
     };
   },

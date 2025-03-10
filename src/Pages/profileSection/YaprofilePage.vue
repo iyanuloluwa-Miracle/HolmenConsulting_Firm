@@ -43,21 +43,7 @@
             </div>
           </div>
           
-          <!-- Contact Section -->
-          <div class="mt-20 bg-purple-50 p-10 rounded-xl shadow-lg">
-            <h2 class="text-4xl font-bold text-purple-700 mb-8 text-center">Get in Touch</h2>
-            <div class="flex flex-wrap justify-center gap-6">
-              <a 
-                v-for="social in profile.socials" 
-                :key="social.type"
-                :href="social.link" 
-                class="flex items-center bg-white px-6 py-4 rounded-lg text-purple-600 hover:text-purple-800 hover:bg-purple-100 transition-colors shadow-md hover:shadow-lg"
-              >
-                <component :is="social.icon" size="24" class="mr-3" />
-                <span class="text-lg">{{ social.label }}</span>
-              </a>
-            </div>
-          </div>
+         
         </div>
       </div>
       
@@ -153,11 +139,7 @@
               description: "Created a multi-year digital transformation roadmap to modernize legacy systems, enhance customer experience, and implement data-driven decision making."
             }
           ],
-          socials: [
-            { type: "email", icon: "MailIcon", link: "#", label: "Email" },
-            { type: "linkedin", icon: "LinkedinIcon", link: "#", label: "LinkedIn" },
-            { type: "phone", icon: "PhoneIcon", link: "#", label: "Call" },
-          ]
+        
         }
       };
     }

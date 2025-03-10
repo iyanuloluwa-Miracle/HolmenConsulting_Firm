@@ -393,6 +393,7 @@ import { MailIcon, LinkedinIcon, GithubIcon } from "lucide-vue-next";
 import Yomi_Akinade from "../../assets/Images/YAA.svg";
 import Niyi from "../../assets/Images/Niyi.svg";
 import Yemi from "../../assets/Images/Yemi.svg";
+import Michael from "../../assets/Images/michael.svg";
 import Footer from "../../components/Footer/Footer.vue";
 
 export default {
@@ -431,6 +432,17 @@ export default {
           name: "Yemi Keri",
           position: "Partner: Business Transformation and Program Management",
           image: Yemi,
+          socials: [
+            { type: "email", icon: "MailIcon", link: "#" },
+            { type: "linkedin", icon: "LinkedinIcon", link: "#" },
+          ],
+        },
+
+        {
+          id: 4,
+          name: "MICHAEL J SCHMIDT",
+          position: "Partner: INFRASTRUCTURE & WEB DEVELOPMENT",
+          image: Michael,
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
             { type: "linkedin", icon: "LinkedinIcon", link: "#" },
