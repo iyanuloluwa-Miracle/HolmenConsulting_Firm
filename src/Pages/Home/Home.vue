@@ -5,7 +5,7 @@
     <div class="pt-40">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800">
-          Holmen Consulting. <br />
+          Holmen Technologies. <br />
           Aligning <span class="text-purple-500">Technology</span> with
           Business.
         </h1>
@@ -17,12 +17,11 @@
         </p>
 
         <div class="mt-6">
-          <a
-            href="https://wa.me/+8148595834"
+          <router-link to="/contact"
             class="inline-block px-6 py-3 bg-purple-500 text-white font-bold text-sm rounded-lg shadow-md hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
           >
             Book a Free Consulting Call
-          </a>
+          </router-link>
         </div>
 
         <!-- Image and Services Section -->
