@@ -6,6 +6,11 @@ import Projects from "../Pages/Projects/Project.vue";
 import Contact from "../Pages/Contact/Contact.vue";
 // import GetInTouch from "../views/GetInTouch.vue";
 import YomiProfile from "../Pages/profileSection/YaprofilePage.vue";
+
+import TayoProfile from "../Pages/profileSection/TayoProfilePage.vue";
+
+import YemiProfile from "../Pages/profileSection/YemiProfilePage.vue";
+
 // Define Routes
 const routes = [
   {
@@ -34,6 +39,20 @@ const routes = [
     path: "/profile/1", // This matches the ID in your teamMembers array
     name: "YomiProfile",
     component: YomiProfile,
+  },
+
+  
+  {
+    path: "/profile/2", // This matches the ID in your teamMembers array
+    name: "Tayo Oyolola",
+    component: TayoProfile,
+  },
+
+  
+  {
+    path: "/profile/3", // This matches the ID in your teamMembers array
+    name: "Yemi Keri",
+    component: YemiProfile,
   },
   // {
   //   path: "/Services",

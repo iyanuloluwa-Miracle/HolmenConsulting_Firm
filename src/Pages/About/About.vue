@@ -418,8 +418,8 @@ export default {
         },
         {
           id: 2,
-          name: "Niyi Odunlami",
-          position: "Partner: Core Business Systems",
+          name: "Tayo Oyolola",
+          position: "Partner: BUSINESS DEVELOPMENT & PROJECT MANAGEMENT",
           image: Niyi,
           socials: [
             { type: "email", icon: "MailIcon", link: "#" },
